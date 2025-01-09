@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Projet 1",
+    "description": "Description de ton projet ici.",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  },
+  {
+    "name": "Projet 2",
+    "description": "Description de ton projet ici.",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  },
+  {
+    "name": "Projet 3",
+    "description": "Description de ton projet ici.",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  },
+  {
+    "name": "Projet 4",
+    "description": "Description supplémentaire ici.",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  }
+]

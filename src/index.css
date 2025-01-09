@@ -1,0 +1,18 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev,
+.slick-next {
+  display: block !important; /* Force l'affichage */
+  z-index: 10; /* Place les flèches au-dessus du contenu */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 24px; /* Taille des flèches */
+  color: #333; /* Couleur des flèches */
+}
