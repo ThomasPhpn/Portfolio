@@ -36,7 +36,7 @@ const Header = () => {
     <header className="bg-floralWhite text-gray-800 py-12">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Texte principal */}
-        <div className="md:w-2/3 text-center md:text-left">
+        <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl font-bold text-moonstone">
             Thomas Philipponneau
           </h1>

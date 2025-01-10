@@ -18,7 +18,7 @@ const technologies = [
 ];
 
 const Technologies = () => (
-  <section className="py-12 bg-platinum">
+  <section className="py-12 bg-white">
     <div className="container mx-auto">
       <h2 className="text-3xl text-moonstone font-bold text-center mb-8">
         Technologies maîtrisées

@@ -1,12 +1,19 @@
 import Slider from "react-slick";
 
+// Importer les logos locaux
+import VeoliaLogo from "/src/assets/technologies/veolia.png";
+import SaintGobainLogo from "/src/assets/technologies/saint-gobain.png";
+import WeightWatchersLogo from "/src/assets/technologies/weight-watchers.png";
+import MuseePrehistoireLogo from "/src/assets/technologies/musee-national-prehistoire.png";
+import AssociationLogo from "/src/assets/technologies/logo-association-cameleon.jpg";
+
+// Liste des entreprises
 const companies = [
-  { name: "Company 1", logo: "https://via.placeholder.com/300" },
-  { name: "Company 2", logo: "https://via.placeholder.com/300" },
-  { name: "Company 3", logo: "https://via.placeholder.com/300" },
-  { name: "Company 4", logo: "https://via.placeholder.com/300" },
-  { name: "Company 5", logo: "https://via.placeholder.com/300" },
-  { name: "Company 6", logo: "https://via.placeholder.com/300" },
+  { name: "Veolia", logo: VeoliaLogo },
+  { name: "Saint-Gobain", logo: SaintGobainLogo },
+  { name: "WeightWatchers", logo: WeightWatchersLogo },
+  { name: "Musée National de la Préhistoire", logo: MuseePrehistoireLogo },
+  { name: "Association Caméléon", logo: AssociationLogo },
 ];
 
 const TrustSlider = () => {
@@ -39,7 +46,7 @@ const TrustSlider = () => {
     <section className="py-12 bg-floralWhite">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl text-moonstone font-bold mb-8">
-          Ils me font / m'ont fait confiance
+          Ils me font, m'ont fait confiance
         </h2>
         <Slider {...settings}>
           {companies.map((company, index) => (
@@ -47,7 +54,7 @@ const TrustSlider = () => {
               <img
                 src={company.logo}
                 alt={company.name}
-                className="w-32 h-32 mx-auto object-contain"
+                className="w-48 h-44 mx-auto object-contain"
               />
             </div>
           ))}

@@ -5,7 +5,7 @@ const FloatingIcons = () => (
     {/* Contact */}
     <a
       href="#contact"
-      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-platinum transition"
+      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-white transition"
       title="Contact"
     >
       <FontAwesomeIcon icon="envelope" size="2x" />
@@ -16,7 +16,7 @@ const FloatingIcons = () => (
       href="https://www.malt.fr/profile/thomasphilipponneau"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-platinum transition"
+      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-white transition"
       title="Malt"
     >
       <FontAwesomeIcon icon="code" size="2x" />
@@ -27,7 +27,7 @@ const FloatingIcons = () => (
       href="https://www.linkedin.com/in/thomas-philipponneau-webmaster/"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-platinum transition"
+      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-white transition"
       title="LinkedIn"
     >
       <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
@@ -38,7 +38,7 @@ const FloatingIcons = () => (
       href="https://github.com/ThomasPhpn"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-platinum transition"
+      className="bg-moonstone text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-white transition"
       title="GitHub"
     >
       <FontAwesomeIcon icon={["fab", "github"]} size="2x" />

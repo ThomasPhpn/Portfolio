@@ -1,9 +1,9 @@
 const ContactForm = () => {
   return (
-    <section id="contact" className="py-12 bg-platinum">
+    <section id="contact" className="py-12 bg-white">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-moonstone text-center mb-8">
-          Contact
+          Me contacter
         </h2>
         <form className="max-w-lg mx-auto bg-floralWhite p-4">
           <div className="mb-4">
@@ -18,6 +18,7 @@ const ContactForm = () => {
               id="name"
               className="mt-1 block w-full p-2 border-gray-300 rounded-md shadow-sm focus:ring-moonstone focus:border-moonstone"
               placeholder="Votre nom"
+              required
             />
           </div>
           <div className="mb-4">
@@ -32,6 +33,7 @@ const ContactForm = () => {
               id="email"
               className="mt-1 block w-full p-2 border-gray-300 rounded-md shadow-sm focus:ring-moonstone focus:border-moonstone"
               placeholder="Votre email"
+              required
             />
           </div>
           <div className="mb-4">
