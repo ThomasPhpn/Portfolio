@@ -1,26 +1,14 @@
 [
   {
-    "name": "Projet 1",
-    "description": "Description de ton projet ici.",
-    "image": "https://via.placeholder.com/300",
+    "name": "Kasa",
+    "description": "Développement front-end d'une application web pour Kasa, spécialisée dans la location d'appartements entre particuliers. Le projet a été réalisé avec <strong>React</strong>, en respectant une logique de <strong>composants</strong> et des maquettes <strong>Figma</strong>. J'ai utilisé <strong>React Router</strong> pour le routage, un fichier <strong>JSON</strong> pour les données, et <strong>Sass</strong> pour le style. Les points forts incluent un carrousel d'images dynamique et une adaptation <strong>responsive</strong>.",
+    "image": "/src/assets/projets/kasa-logo.png",
     "link": "#"
   },
   {
-    "name": "Projet 2",
-    "description": "Description de ton projet ici.",
-    "image": "https://via.placeholder.com/300",
-    "link": "#"
-  },
-  {
-    "name": "Projet 3",
-    "description": "Description de ton projet ici.",
-    "image": "https://via.placeholder.com/300",
-    "link": "#"
-  },
-  {
-    "name": "Projet 4",
-    "description": "Description supplémentaire ici.",
-    "image": "https://via.placeholder.com/300",
+    "name": "Booki",
+    "description": "Intégration d’un site web pour Booki, une start-up permettant de rechercher des hébergements et activités par ville. Réalisé avec <strong>HTML</strong> et <strong>CSS</strong>, le projet inclut des maquettes <strong>Figma</strong>, des sections structurées (header, formulaires, cartes, footer), et une adaptation <strong>responsive</strong> grâce aux <strong>media queries</strong>. Conformité validée avec les outils <strong>W3C</strong>.",
+    "image": "/src/assets/projets/booki.jpg",
     "link": "#"
   }
 ]

@@ -36,29 +36,29 @@ const Header = () => {
     <header className="bg-floralWhite text-gray-800 py-12">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Texte principal */}
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="md:w-1/2 text-center md:text-left mx-4">
           <h1 className="text-4xl font-bold text-moonstone">
             Thomas Philipponneau
           </h1>
           <p className="text-lg mt-4">
             Je suis <span className="text-moonstone">{displayedText}</span>.
           </p>
-          <p className="mt-6 leading-relaxed text-gray-700">
-            Professionnel polyvalent de 30 ans basé près de Bordeaux, j'ai
-            construit un parcours mêlant web et multilinguisme. Avec une Licence
-            en Langues Étrangères Appliquées, un séjour à Newcastle et un Master
-            en Création et Administration de sites web multilingues, je sais
-            allier technique et adaptabilité.
+          <p className="mt-6 leading-relaxed text-gray-700 text-justify">
+            Professionnel polyvalent de 30 ans basé près de <b>Bordeaux</b>,
+            j'ai construit un parcours mêlant web et multilinguisme. Avec une
+            Licence en Langues Étrangères Appliquées -{" "}
+            <i>un séjour à Newcastle</i> - et un Master en Création et
+            Administration de sites web multilingues, je sais allier{" "}
+            <b>technique</b> et <b>adaptabilité</b>.
           </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
+          <p className="mt-4 leading-relaxed text-gray-700 text-justify">
             Freelance depuis plusieurs années, j'ai eu la chance de collaborer
-            avec des entreprises de renom comme Veolia, Saint-Gobain et
-            WeightWatchers, en tant qu'intégrateur web, webmaster ou encore
-            expert SEO.
+            avec des entreprises de renom comme <b>Veolia</b>,{" "}
+            <b>Saint-Gobain</b> ou encore <b>WeightWatchers</b>.
           </p>
-          <p className="mt-6 leading-relaxed text-gray-700">
+          <p className="mt-6 leading-relaxed text-gray-700 text-justify">
             🎯 Prêt à relever vos défis digitaux, je suis à votre disposition
-            pour accompagner vos projets avec créativité et efficacité !
+            pour accompagner vos projets avec <b>créativité et efficacité</b> !
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const Header = () => {
           <img
             src={profil}
             alt="Profil de Thomas"
-            className="w-1/2 object-fill rounded-3xl shadow-lg"
+            className="w-1/2 object-fill shadow-md rounded-lg shadow-moonstone"
           />
         </div>
       </div>

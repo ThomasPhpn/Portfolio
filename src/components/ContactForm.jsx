@@ -1,11 +1,14 @@
 const ContactForm = () => {
   return (
-    <section id="contact" className="py-12 bg-white">
+    <section
+      id="contact"
+      className="py-12 bg-white border-t-2 border-t-moonstone"
+    >
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-moonstone text-center mb-8">
           Me contacter
         </h2>
-        <form className="max-w-lg mx-auto bg-floralWhite p-4">
+        <form className="max-w-lg mx-auto bg-floralWhite p-4 rounded-md">
           <div className="mb-4">
             <label
               htmlFor="name"
@@ -52,7 +55,7 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-moonstone text-white py-2 px-4 rounded hover:bg-teal-900"
+            className="w-full bg-moonstone text-white py-2 px-4 rounded hover:bg-AsGreen"
           >
             Envoyer
           </button>

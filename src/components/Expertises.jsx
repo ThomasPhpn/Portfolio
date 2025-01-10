@@ -4,30 +4,27 @@ import {
   faCode,
   faSearch,
   faLaptopCode,
+  faKeyboard,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Expertises = () => (
-  <section className="bg-white text-gray-800 py-12">
+  <section className="bg-white text-gray-800 py-12 border-t-2 border-t-moonstone">
     <div className="container mx-auto">
       {/* Intro */}
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-moonstone">Expertises</h2>
-        <p className="text-lg mt-4 text-gray-700">
-          Fort de plusieurs années d’expérience, je vous accompagne dans tous
-          vos projets digitaux avec une approche créative et efficace.
-        </p>
       </div>
 
       {/* Liste des expertises */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-6 mx-4">
         {/* Création de sites */}
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
             icon={faGlobe}
-            size="3x"
+            size="2x"
             className="text-moonstone mb-4"
           />
-          <h3 className="text-xl font-bold text-moonstone">
+          <h3 className="text-lg font-bold text-moonstone">
             Création de sites
           </h3>
           <p className="mt-2 text-gray-700">
@@ -39,11 +36,11 @@ const Expertises = () => (
         {/* Intégration & Webmastering */}
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
-            icon={faCode}
-            size="3x"
+            icon={faKeyboard}
+            size="2x"
             className="text-moonstone mb-4"
           />
-          <h3 className="text-xl font-bold text-moonstone">
+          <h3 className="text-lg font-bold text-moonstone">
             Intégration & Webmastering
           </h3>
           <p className="mt-2 text-gray-700">
@@ -56,10 +53,10 @@ const Expertises = () => (
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
             icon={faSearch}
-            size="3x"
+            size="2x"
             className="text-moonstone mb-4"
           />
-          <h3 className="text-xl font-bold text-moonstone">
+          <h3 className="text-lg font-bold text-moonstone">
             Référencement (SEO)
           </h3>
           <p className="mt-2 text-gray-700">
@@ -72,10 +69,10 @@ const Expertises = () => (
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
             icon={faLaptopCode}
-            size="3x"
+            size="2x"
             className="text-moonstone mb-4"
           />
-          <h3 className="text-xl font-bold text-moonstone">Front-end</h3>
+          <h3 className="text-lg font-bold text-moonstone">Front-end</h3>
           <p className="mt-2 text-gray-700">
             Création d’interfaces utilisateurs élégantes et fonctionnelles, avec
             un code propre et maintenable.

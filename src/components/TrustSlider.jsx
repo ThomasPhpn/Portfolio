@@ -1,11 +1,11 @@
 import Slider from "react-slick";
 
 // Importer les logos locaux
-import VeoliaLogo from "/src/assets/technologies/veolia.png";
-import SaintGobainLogo from "/src/assets/technologies/saint-gobain.png";
-import WeightWatchersLogo from "/src/assets/technologies/weight-watchers.png";
-import MuseePrehistoireLogo from "/src/assets/technologies/musee-national-prehistoire.png";
-import AssociationLogo from "/src/assets/technologies/logo-association-cameleon.jpg";
+import VeoliaLogo from "/src/assets/entreprises/veolia.png";
+import SaintGobainLogo from "/src/assets/entreprises/saint-gobain.png";
+import WeightWatchersLogo from "/src/assets/entreprises/weight-watchers.png";
+import MuseePrehistoireLogo from "/src/assets/entreprises/musee-national-prehistoire.png";
+import AssociationLogo from "/src/assets/entreprises/logo-association-cameleon.jpg";
 
 // Liste des entreprises
 const companies = [
@@ -43,7 +43,7 @@ const TrustSlider = () => {
   };
 
   return (
-    <section className="py-12 bg-floralWhite">
+    <section className="py-12 bg-white border-t-2 border-t-moonstone">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl text-moonstone font-bold mb-8">
           Ils me font, m'ont fait confiance

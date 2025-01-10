@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 import projets from "./projets.json";
 
 const Projects = () => (
-  <section className="py-12 bg-floralWhite">
+  <section className="py-12 bg-floralWhite border-t-2 border-t-moonstone px-4">
     <div className="container mx-auto">
       <h2 className="text-3xl text-moonstone font-bold text-center mb-8">
         Projets

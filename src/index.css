@@ -5,14 +5,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Forcer l'affichage des flèches */
 .slick-prev,
 .slick-next {
-  display: block !important; /* Force l'affichage */
-  z-index: 10; /* Place les flèches au-dessus du contenu */
+  display: block !important;
+  z-index: 10; /* Met les flèches au-dessus du contenu */
 }
 
+/* Positionnement des flèches */
+.slick-prev {
+  left: 20px; /* Ajuste la position à gauche */
+}
+
+.slick-next {
+  right: 20px; /* Ajuste la position à droite */
+}
+
+/* Taille et couleur des flèches */
 .slick-prev:before,
 .slick-next:before {
-  font-size: 24px; /* Taille des flèches */
-  color: #333; /* Couleur des flèches */
+  font-size: 24px;
+  color: #d00931; /* Modifie la couleur si nécessaire */
 }
