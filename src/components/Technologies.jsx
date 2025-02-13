@@ -1,30 +1,33 @@
-import ReactLogo from "/src/assets/technologies/react.svg";
-import CSSLogo from "/src/assets/technologies/css.png";
-import JavaScriptLogo from "/src/assets/technologies/javascript.svg";
-import BootstrapLogo from "/src/assets/technologies/bootstrap.svg";
-import GitHubLogo from "/src/assets/technologies/github.svg";
-import JiraLogo from "/src/assets/technologies/jira.svg";
-import StoryBook from "/src/assets/technologies/storybook-icon.svg";
-import Drupal from "/src/assets/technologies/drupal.svg";
+import ReactLogo from "../assets/technologies/react.svg";
+import CSSLogo from "../assets/technologies/css.png";
+import JavaScriptLogo from "../assets/technologies/javascript.svg";
+import BootstrapLogo from "../assets/technologies/bootstrap.svg";
+import GitHubLogo from "../assets/technologies/github.svg";
+import JiraLogo from "../assets/technologies/jira.svg";
+import StoryBook from "../assets/technologies/storybook-icon.svg";
+import Drupal from "../assets/technologies/drupal.svg";
+import TailwindLogo from "../assets/technologies/tailwind.png";
+import ChatGPTLogo from "../assets/technologies/chatgpt.png";
+import HTMLLogo from "../assets/technologies/html.png";
+import ScreamingFrogLogo from "../assets/technologies/screaming-frog.png";
+import WordpressLogo from "../assets/technologies/wordpress.png";
+import FigmaLogo from "../assets/technologies/figma.png";
 
 const technologies = [
   { name: "React", logo: ReactLogo },
-  { name: "Tailwind", logo: "/src/assets/technologies/tailwind.png" },
+  { name: "Tailwind", logo: TailwindLogo },
   { name: "GitHub", logo: GitHubLogo },
   { name: "JavaScript", logo: JavaScriptLogo },
   { name: "Bootstrap", logo: BootstrapLogo },
   { name: "Jira", logo: JiraLogo },
-  { name: "ChatGPT", logo: "/src/assets/technologies/chatgpt.png" },
+  { name: "ChatGPT", logo: ChatGPTLogo },
   { name: "CSS", logo: CSSLogo },
-  { name: "HTML", logo: "/src/assets/technologies/html.png" },
-  {
-    name: "Screamming Frog",
-    logo: "/src/assets/technologies/screaming-frog.png",
-  },
-  { name: "Wordpress", logo: "/src/assets/technologies/wordpress.png" },
+  { name: "HTML", logo: HTMLLogo },
+  { name: "Screamming Frog", logo: ScreamingFrogLogo },
+  { name: "Wordpress", logo: WordpressLogo },
   { name: "Storybook", logo: StoryBook },
   { name: "Drupal", logo: Drupal },
-  { name: "Figma", logo: "/src/assets/technologies/figma.png" },
+  { name: "Figma", logo: FigmaLogo },
 ];
 
 const Technologies = () => (
