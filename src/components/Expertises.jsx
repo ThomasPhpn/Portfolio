@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGlobe,
-  faCode,
   faSearch,
   faLaptopCode,
   faKeyboard,
@@ -10,14 +9,11 @@ import {
 const Expertises = () => (
   <section className="bg-white text-gray-800 py-12 border-t-2 border-t-moonstone">
     <div className="container mx-auto">
-      {/* Intro */}
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-moonstone">Expertises</h2>
       </div>
 
-      {/* Liste des expertises */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-6 mx-4">
-        {/* Création de sites */}
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
             icon={faGlobe}
@@ -33,7 +29,6 @@ const Expertises = () => (
           </p>
         </div>
 
-        {/* Intégration & Webmastering */}
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
             icon={faKeyboard}
@@ -49,7 +44,6 @@ const Expertises = () => (
           </p>
         </div>
 
-        {/* Référencement (SEO) */}
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
             icon={faSearch}
@@ -65,7 +59,6 @@ const Expertises = () => (
           </p>
         </div>
 
-        {/* Front-end */}
         <div className="flex flex-col items-center text-center md:text-left">
           <FontAwesomeIcon
             icon={faLaptopCode}

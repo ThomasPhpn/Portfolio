@@ -6,6 +6,12 @@
     "link": "/projets/kasa/"
   },
   {
+    "name": "Ma cusine",
+    "description": "Création complète de l'application web \"Ma Cuisine\", une plateforme pour gérer et partager des recettes, des fruits et légumes de saison et une sélection de vins préférés. Le projet a été réalisé avec <strong>React</strong>, <strong>Vite</strong> et <strong>Tailwind CSS</strong>, avec une architecture basée sur des <strong>composants réutilisables</strong>. J'ai intégré une API <strong>GraphQL</strong> connectée à <strong>WordPress</strong> (custom post types) pour afficher dynamiquement les recettes, pages et vins. Le <strong>routage</strong> a été géré via <strong>React Router</strong>. Le projet est hébergé sur <strong>Plesk</strong> avec <strong>Docker</strong> et un <strong>serveur Nginx</strong>. L'application est totalement <strong>responsive</strong>.",
+    "image": "/assets/projets/ma-cuisine.jpg",
+    "link": "/projets/wordpress/ma-cuisine/"
+  },
+  {
     "name": "Booki",
     "description": "Intégration d’un site web pour Booki, une start-up permettant de rechercher des hébergements et activités par ville. Réalisé avec <strong>HTML</strong> et <strong>CSS</strong>, le projet inclut des maquettes <strong>Figma</strong>, des sections structurées (header, formulaires, cartes, footer), et une adaptation <strong>responsive</strong> grâce aux <strong>media queries</strong>. Conformité validée avec les outils <strong>W3C</strong>.",
     "image": "/assets/projets/booki.jpg",

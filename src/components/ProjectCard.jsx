@@ -3,7 +3,6 @@ const ProjectCard = ({ name, description, image, link }) => (
     <img src={image} alt={name} className="w-full h-48 object-center" />
     <div className="p-6">
       <h3 className="text-xl font-semibold">{name}</h3>
-      {/* Utilisation de dangerouslySetInnerHTML pour interpréter le HTML */}
       <p
         className="text-gray-600 mt-2"
         dangerouslySetInnerHTML={{ __html: description }}

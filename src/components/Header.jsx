@@ -8,7 +8,6 @@ const Header = () => {
   const [letterIndex, setLetterIndex] = useState(0);
 
   useEffect(() => {
-    // Effet d'écriture lettre par lettre
     const typingInterval = setInterval(() => {
       const currentProfession = professions[currentProfessionIndex];
       if (letterIndex < currentProfession.length) {
@@ -17,25 +16,23 @@ const Header = () => {
         );
         setLetterIndex((prevIndex) => prevIndex + 1);
       } else {
-        clearInterval(typingInterval); // Arrête l'écriture une fois le mot complet
+        clearInterval(typingInterval);
         setTimeout(() => {
-          // Pause avant de changer le mot
           setLetterIndex(0);
           setDisplayedText("");
           setCurrentProfessionIndex(
             (prevIndex) => (prevIndex + 1) % professions.length
           );
-        }, 2000); // Pause de 2 secondes avant de changer le mot
+        }, 2000);
       }
-    }, 100); // Vitesse de frappe (en ms)
+    }, 100);
 
-    return () => clearInterval(typingInterval); // Nettoyage pour éviter les conflits
+    return () => clearInterval(typingInterval);
   }, [letterIndex, currentProfessionIndex]);
 
   return (
     <header className="bg-floralWhite text-gray-800 py-12">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        {/* Texte principal */}
         <div className="md:w-1/2 text-center md:text-left mx-4">
           <h1 className="text-4xl font-bold text-moonstone">
             Thomas Philipponneau
@@ -62,7 +59,6 @@ const Header = () => {
           </p>
         </div>
 
-        {/* Image */}
         <div className="md:w-1/3 flex justify-center md:justify-end mt-8 md:mt-0">
           <img
             src={profil}

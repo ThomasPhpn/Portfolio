@@ -127,7 +127,6 @@ const ContactForm = () => {
           </button>
         </form>
 
-        {/* Affiche les notifications */}
         <ToastContainer position="top-right" autoClose={3000} />
       </div>
     </section>

@@ -8,7 +8,6 @@ const FloatingIcons = () => {
 
   return (
     <div className="fixed right-4 top-1/4 md:top-1/2 transform -translate-y-1/2 flex flex-col items-center z-50">
-      {/* Bouton hamburger (ou croix si ouvert) */}
       <button
         className="bg-moonstone text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg  md:hidden"
         onClick={toggleMenu}
@@ -17,7 +16,6 @@ const FloatingIcons = () => {
         <FontAwesomeIcon icon={isOpen ? "times" : "bars"} className="text-xl" />
       </button>
 
-      {/* Icônes affichées si le menu est ouvert (mobile uniquement) */}
       {isOpen && (
         <div className="mt-4 space-y-3 md:hidden">
           <a
@@ -57,7 +55,6 @@ const FloatingIcons = () => {
         </div>
       )}
 
-      {/* Icônes toujours visibles sur desktop */}
       <div className="hidden md:flex flex-col items-center space-y-4">
         <a
           href="#contact"

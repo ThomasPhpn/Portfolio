@@ -1,13 +1,11 @@
 import Slider from "react-slick";
 
-// Importer les logos locaux
 import VeoliaLogo from "/src/assets/entreprises/veolia.png";
 import SaintGobainLogo from "/src/assets/entreprises/saint-gobain.png";
 import WeightWatchersLogo from "/src/assets/entreprises/weight-watchers.png";
 import MuseePrehistoireLogo from "/src/assets/entreprises/musee-national-prehistoire.png";
 import AssociationLogo from "/src/assets/entreprises/logo-association-cameleon.jpg";
 
-// Liste des entreprises
 const companies = [
   { name: "Veolia", logo: VeoliaLogo },
   { name: "Saint-Gobain", logo: SaintGobainLogo },

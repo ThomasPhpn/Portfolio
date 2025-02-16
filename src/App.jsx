@@ -9,7 +9,7 @@ import TrustSlider from "./components/TrustSlider";
 
 const App = () => (
   <div>
-    <FloatingIcons /> {/* Icônes flottantes */}
+    <FloatingIcons />
     <Header />
     <Expertises />
     <Projects />
