@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const ProjectCard = ({ name, description, image, link }) => (
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
     <img src={image} alt={name} className="w-full h-48 object-center" />

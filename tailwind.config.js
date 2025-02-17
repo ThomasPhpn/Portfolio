@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Quicksand", "sans-serif"], // Baumans devient la police par défaut
+        sans: ["Quicksand", "sans-serif"],
       },
       colors: {
-        moonstone: "#d00931", // Bleu
-        floralWhite: "#F1F2EB", // Blanc cassé
-        white: "#FFF", // Blanc
+        moonstone: "#d00931",
+        floralWhite: "#F1F2EB",
+        white: "#FFF",
         AsGreen: "#09454F",
       },
     },
